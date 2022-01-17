@@ -2,4 +2,4 @@
 Sharingan animation with pure CSS
 🔴
 
-![sharingan_screenshoot](https://user-images.githubusercontent.com/86896365/149700068-dbb66234-003e-4831-9261-b43b477c3cce.png)
+![sharingan2_screens](https://user-images.githubusercontent.com/86896365/149700236-e38b8325-b2e9-4fe9-960e-c1c751c6b056.png)
