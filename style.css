@@ -1,0 +1,117 @@
+.html{
+    background-color:black;
+}
+body{
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    width: auto;
+}
+header{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header h1{
+    display: flex;
+    margin: 0;
+    font-size: 80px;
+    color: red;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 30px;
+}
+.contenedor_sharingan{
+    padding-top: 30px;
+    
+}
+.sharingan{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    border-radius: 50%;
+    position:relative;
+    margin: auto
+}
+.sharingan2{ /* Desactivado */
+    visibility: hidden;
+}
+.sharingan2:target{
+    background-color: red;
+    width: 210px;
+    height: 210px;
+    border: solid black;
+    border-radius: 50%;
+    top: -2%;
+    left: -2%;
+    position:absolute;
+    visibility: visible;
+    animation: sharingans 2s linear infinite
+}
+@keyframes sharingans {
+    to {transform: rotate(360deg);}
+}
+.linea_Interior{
+    width: 70%;
+    height: 70%;
+    outline-style:solid;
+    outline-width: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.circulos{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    top: -6%;
+    left: 40%;
+}
+.triangulos{
+    height: 18px;
+    width: 18px;
+    background-color: black;
+    position: relative;
+    top: -5px;
+    left: 5px;
+    border-radius: 0% 145% 0% 90%;
+    transform: rotateZ(80deg) skewY(30deg); 
+
+}
+.boton{
+    background-color: rgb(42, 42, 42);
+    color: rgb(255, 60, 60);
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0 auto;
+}
+.boton a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.boton:hover{
+    background-color: red;
+    color: white;
+}
+footer{
+    position: relative;
+    height: 15%;
+    left: 0;
+    bottom: -170px;
+}
+footer a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+
